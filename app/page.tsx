@@ -3,12 +3,14 @@ import FAQSection from "@/components/shared/FAQ_Section";
 import BookNow from "@/components/ui/BookNow";
 import FreeLearn from "@/components/ui/FreeLearn";
 import Hero from "@/components/ui/Hero";
+import TrialLesson from "@/components/ui/TrialLesson";
 
 export default async function Home() {
   return (
     <div>
       <Hero />
       <FreeLearn />
+      <TrialLesson />
       <InfoSection />
       <BookNow />
       <FAQSection />
