@@ -4,7 +4,7 @@ import HeroSection from "./HeroSection";
 
 const Hero = () => {
   return (
-    <div className=" bg-white pt-16 mb-10 rounded-b-[60px]">
+    <div className=" bg-white pt-5 md:pt-16 mb-10 rounded-b-[60px]">
       <div className=" text-center -mb-15 relative z-10">
         <div>
           <h2 className="text-[clamp(24px,3vw,48px)] text-[#333333] font-bold  inline-block ">
@@ -17,16 +17,16 @@ const Hero = () => {
             <span className="text-[#C51230]">Reality</span>
           </h2>
         </div>
-        <p className="text-base mt-2">
+        <p className="text-[clamp(12px,1.5vw,16px)] mt-2">
           Based at Coventry and Sywell Aerodrome, Northamptonshire, we deliver{" "}
           <br />
           commercial-level professionalism{" "}
           <span className="text-lg font-bold">Read more</span>
         </p>
-        <button className=" flex gap-1.5 items-center mx-auto mt-6 px-4 py-2 bg-[#C51230] text-white rounded-full hover:bg-[#FF1B42] transition-colors duration-300">
+        <button className=" flex gap-1.5 items-center mx-auto mt-2.5 md:mt-6 px-3 py-2 text-xs bg-[#C51230] text-white rounded-full hover:bg-[#FF1B42] transition-colors duration-300">
           Contact Us
           <span>
-            <IconArrowNarrowRight />
+            <IconArrowNarrowRight size={20} />
           </span>
         </button>
       </div>
