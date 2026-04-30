@@ -5,7 +5,7 @@ import React from "react";
 
 const BookNow = () => {
   return (
-    <div className="relative max-w-330 mx-auto bg-primary rounded-[20px] mb-15">
+    <div className="relative max-w-330 mx-auto bg-primary rounded-[20px] mb-15 overflow-hidden">
       <div className="absolute  right-0 top-0 md:block hidden">
         <Image src={assets_home.rectangle} alt="" className="object-cover ]" />
       </div>
